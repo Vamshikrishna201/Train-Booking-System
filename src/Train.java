@@ -18,13 +18,12 @@ public class Train {
         availableSeats += count;
     }
 
-    public Train(int trainId, String name, String source, String destination, int totalSeats, int availableSeats) {
+    public Train(int trainId, String name, String source, String destination, int totalSeats) {
         this.trainId = trainId;
         this.name = name;
         this.source = source;
         this.destination = destination;
         this.totalSeats = totalSeats;
-        this.availableSeats = availableSeats;
     }
 
     public int getTrainId() {
